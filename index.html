@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garrett's Blog</title>
+  <style>
+    body {
+      font-family: monospace;
+      font-size: 1.;
+      line-height: 1.6;
+      max-width: 650px;
+      margin: 80px auto;
+      padding: 0 20px;
+      color: #222;
+      background: beige;
+    }
+    img {
+      max-width: 100%;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Garrett's Blog</h1>
+  <p>This is where I write whatever I want.</p>
+  <p><img src="staringcontest.jpeg" alt="staringcontest.jpeg"></p>
+  <p><a href="mailto:epicgbro@gmail.com">Contact me</a></p>
+</body> 
+<span id="wn">⬤ </span> &copy; garrett <span id="copyright">
+<script>
+// WNOADIARWB LOGO SCRIPT
+function generateRandomColor()
+{
+    var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    return randomColor;
+    //random color will be freshly served
+}
+// document.body.style.backgroundColor = generateRandomColor() // -> #e1ac94
+wn.style.color = generateRandomColor() // -> #34c7aa
+</script>
+
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span></p>
+</html>
